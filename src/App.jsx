@@ -110,7 +110,7 @@ export default function App() {
           <p style={{ color: colors.subtext, fontSize: '18px' }}>Our platform streamlines national identity management by connecting secure biometric enrollment to a national registry database, enabling robust digital verification.</p>
         </div>
         
-        {/* Architecture Diagram style card */}
+        
         <div style={{ ...glassCardStyle }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '25px' }}>
             <Database size={24} color={colors.primary} />
@@ -133,7 +133,7 @@ export default function App() {
     </div>
   );
 
-  // --- Page Component: The Interactive Prototype Page (Your existing code in new UI) ---
+ 
   const EnrollmentPrototype = () => {
     const [submitted, setSubmitted] = useState(false);
     return (
